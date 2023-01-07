@@ -6,7 +6,6 @@ const cors = require("cors");
 const mongoose = require('mongoose')
 const methodOverride = require('method-override')
 const morgan = require('morgan')
-require('dotenv').config()
 const {PORT, DATABASE_URL} = process.env
 // Create our app object
 const app = express();
